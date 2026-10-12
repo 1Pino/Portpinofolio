@@ -1,0 +1,415 @@
+/* Type Design Specific Styles */
+
+/* PinoFONTS */
+.blur1{
+  font-family:virus-blur1 , Mono;
+}
+.blur2{
+    font-family:virus-blur2 , Mono;
+}
+.blur3{
+    font-family:virus-blur3 , Mono;
+}
+.schwung{
+    font-family:virus-schwung, Mono;
+}
+.schwung2{
+    font-family:virus-schwung2 , Mono;
+}
+.fett{
+    font-family:virus-fett , Mono;
+}
+.Sandvoss{
+    font-family:Sandvoss , Mono;
+}
+.EckeKante{
+    font-family:EckeKante , Mono;
+}
+.Digitaluhr{
+    font-family:DigitalUhr , Mono;
+}
+.Quadratur{
+    font-family:Quadratur , Mono;
+}
+.Gemein { font-family: Gemein, Mono; }
+
+.Harzgrab{
+    font-family:Harzgrab , Mono;
+}
+.Horst{
+    font-family:Horst , Mono;
+}
+.Kante{
+    font-family:Kante , Mono;
+}
+.Schrift{
+    font-family: Schrift ;
+}
+.Modellbau{
+  font-family: Modellbau;
+}
+.Inktrap{
+  font-family: Inktrap;
+}
+.Overlap{
+  font-family: Overlap;
+}
+
+.Zeileunten{
+   width: 100%;
+  height:500px;
+}
+
+/* FAMILY */
+.Family {
+  width:90%;
+  left:5%;
+  position: relative; 
+}
+
+.container {
+    position: relative;
+    left: 5%;
+    margin: 10%;
+    width: 90%;
+    margin: 0 ;
+    margin-top:-2px;
+    Background: #ffffff;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.top-row, .bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  Background-color: #949f8f;
+    color: black;
+}
+
+.top-row {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.bottom-row {
+    border-top: 2px solid rgb(255, 91, 36);
+}
+
+.font-specimen {
+  --size: 120px;
+  --line: 1;
+  --tracking: 0em;
+  border-bottom: 0px solid #909090;
+}
+
+/* Textfeld */
+.font-test {
+    font-size: var(--size);
+    line-height: var(--line);
+    letter-spacing: var(--tracking);
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    max-height:300px;
+    margin: 30px 0px 10px 0px;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    outline: none;
+    cursor: text;
+}
+
+.Text{
+      height: auto;
+      width:400vw;
+      padding-top: 0px;
+      white-space: nowrap;
+      max-width: 400vw;
+      
+}
+
+.Text:last-child{
+    margin-bottom: 40px;
+}
+
+.Text:first-child{
+    margin-top: 40px;
+}
+
+.Text{
+    animation:laufband 20s infinite linear;
+}
+
+@keyframes laufband {
+    0% {
+       transform:translateX(20%) ;
+    }
+    100% {
+        transform:translateX(-70%) ;
+    }
+}
+
+.container:nth-child(1) .Text {
+  animation-delay: 0s;
+}
+
+.container:nth-child(2) .Text{
+  animation-delay: 1s;
+}
+
+.container:nth-child(3) .Text{
+  animation-delay: 2s;
+}
+
+.container:nth-child(4) .Text{
+  animation-delay: 3s;
+}
+
+.container:nth-child(5) .Text{
+  animation-delay: 4s;
+}
+
+.container:nth-child(6) .Text{
+  animation-delay: 5s;
+}
+
+.container:nth-child(7) .Text{
+  animation-delay: 6s;
+}
+
+.container:nth-child(8) .Text{
+  animation-delay: 7s;
+}
+
+.container:nth-child(9) .Text{
+  animation-delay: 8s;
+}
+
+.container:nth-child(10) .Text{
+  animation-delay: 9s;
+}
+
+.container:nth-child(11) .Text{
+  animation-delay: 10s;
+}
+
+/* SLIDER */
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 1px;
+  background-color: #000000;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #dfff00;
+  border-radius: 50%;
+  border: 0;
+}
+
+/* Thumb – Firefox */
+.slider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background: #dfff00;
+  border-radius: 50%;
+  border: 0;
+}
+
+.slider::-webkit-slider-runnable-track,
+.slider::-moz-range-track {
+  background: #000000;
+}
+
+.bottom-row.controls {
+  display: flex;
+  gap: 0px;
+  padding: 16px 0px;
+  border-top: 0px solid rgb(255, 91, 36);
+}
+
+.bottom-row.controls label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0px;
+}
+
+.bottom-row.controls input[type="range"] {
+  width: 120px;
+}
+
+/* DOWNLOADBUTTON */
+.download-font {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  background: #949f8f;
+  color: black;
+  text-decoration: none;
+  border-radius: 0rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.download-font:hover {
+  background: #7d8977;
+  color: black;
+}
+
+.download-font:active {
+  background: #dfff00;
+  color: black;
+}
+
+/* Typedesign Popdown & Project list alignment (match main layout) */
+.projects{
+  padding:8rem 4rem;
+}
+.project{
+  border-top:5px solid var(--random-color2);
+  padding:1.5rem 0;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items:flex-start;
+}
+
+.project-detail-panel {
+  position: static;
+  display: none;
+  width: 100%;
+  height: auto;
+  flex: 1 1 100%;
+  background: #949f8f;
+  margin-top: 2rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.project-detail-panel.show {
+  display: block;
+}
+
+.project-detail-content {
+  width: 100%;
+  display: flex;
+  gap: -2rem;
+  background-color: #949f8f;
+  flex-wrap: wrap;
+  transition: all 0.2s ease;
+  height: fit-content;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0rem;
+}
+
+/* Stack font specimen containers vertically: each takes full row */
+.project-detail-content > .container.font-specimen {
+  flex: 1 1 100%;
+  width: 100%;
+  margin: 0 0 1rem;
+}
+
+.project-detail-images,
+.project-detail-text {
+  padding: 1rem;
+}
+
+.project-detail-images {
+  flex: 1.7;
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  overflow-x: visible;
+  overflow-y: visible;
+  align-items: flex-start;
+}
+
+.project-detail-images img {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  max-height: 60vh;
+  object-fit: contain;
+}
+.project-detail-images video {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  max-height: 60vh;
+  object-fit: contain;
+}
+
+.project-detail-text {
+  flex: 1;
+  max-width: 50%;
+  min-width: auto;
+
+  font-size: 1rem;
+  line-height: 1.6;
+  overflow-y: auto;
+}
+
+.project-detail-text h2 {
+  margin-bottom: 1rem;
+  color: var(--random-color2);
+  font-size: clamp(1.8rem, 2.5vw, 2.5rem);
+}
+
+.project-detail-text p {
+  opacity: 0.85;
+}
+
+.container {
+  position: relative;
+  left: 0;
+  margin: 0 0 0.3rem;
+  width: 100%;
+  background-color: #949f8f;
+}
+
+.font-test {
+  white-space: normal;
+  background-color: #949f8f;
+}
+
+.Text {
+  width: 100%;
+  max-width: 100%;
+}
+
+.type-design-page .nav nav a,
+.type-design-page .box2,
+.type-design-page .box3,
+.type-design-page .bottom-row.controls label,
+.type-design-page .font-specimen .top-row a {
+  font-family:KLARVARIABLE,sans-serif;
+  font-variation-settings:"wght" 0;
+  color:#dfff00;
+  -webkit-text-stroke:0.8px #000000;
+  paint-order:stroke fill;
+}
+
+.type-design-page .nav nav a,
+.type-design-page .box2,
+.type-design-page .box3,
+.type-design-page .bottom-row.controls label {
+  font-family:KLARVARIABLE,sans-serif;
+  font-variation-settings:"wght" 0;
+}
+
+.type-design-page .nav nav a,
+.type-design-page .font-specimen .top-row a {
+  font-variation-settings:"wght" 400;
+}
+

@@ -1,0 +1,108 @@
+
+
+
+
+
+
+@font-face {
+    font-family:KLARVARIABLE;
+    src: url(../media/fonts/KLARVF.ttf);
+    font-weight: 1 400 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Schrift ;
+    src: url(../typedesign/fonts/1898.1-Regular.otf);
+}
+
+@font-face {
+    font-family:virus-blur1 ;
+    src: url(../typedesign/fonts/Virus/Virus-blur1.otf);
+}
+@font-face {
+    font-family:virus-blur2 ;
+    src: url(../typedesign/fonts/Virus/Virus-blur2.otf);
+}
+@font-face {
+    font-family:virus-blur3 ;
+    src: url(../typedesign/fonts/Virus/Virus-blur3.otf);
+}
+@font-face {
+    font-family:virus-schwung;
+    src: url(../typedesign/fonts/Virus/Virus-schwung.otf);
+}
+@font-face {
+    font-family:virus-schwung2 ;
+    src: url(../typedesign/fonts/Virus/Virus-schwung2.otf);
+}
+@font-face {
+    font-family:virus-fett ;
+    src: url(../typedesign/fonts/Virus/Virus-fett.otf);
+}
+@font-face {
+    font-family:Sandvoss ;
+    src: url(../typedesign/fonts/Sandvoss-Regular.otf);
+}
+@font-face {
+    font-family:EckeKante ;
+    src: url(../typedesign/fonts/EckeKantevariable2VF.ttf);
+    font-variation-settings: var(--weight);
+}
+@font-face {
+    font-family:DigitalUhr ;
+    src: url(../typedesign/fonts/DigitalUhr5VF.ttf);
+    font-variation-settings: var(--weight);
+}
+@font-face {
+    font-family:Quadratur ;
+    src: url(../typedesign/fonts/QuadraturFINALoptischerAusgleichVF.ttf);
+    font-variation-settings: 
+    var(--weight),
+     var(--SERF);
+}
+@font-face {
+    font-family:Gemein ;
+    src: url(../typedesign/fonts/Gemein.otf);
+}
+@font-face {
+    font-family:Harzgrab ;
+    src: url(../typedesign/fonts/HarzGrabV4VF.ttf);
+}
+@font-face {
+    font-family:Horst ;
+    src: url(../typedesign/fonts/HORSTVF.ttf);
+}
+
+@font-face {
+    font-family:Kante ;
+    src: url(../typedesign/fonts/pinoseckenschriftVF.ttf);
+     font-variation-settings:var(--weight);
+}
+
+
+@font-face {
+    font-family:Modellbau ;
+    src: url(../media/fonts/KLAR12_ModellbauVF.ttf);
+     font-variation-settings:var(--weight);
+}
+@font-face {
+    font-family:Klar12 ;
+    src: url(../media/fonts/KLAR12-Regular.ttf);
+     font-variation-settings:var(--weight);
+}
+@font-face {
+    font-family:Inktrap ;
+    src: url(../media/fonts/KLAR12_StencilVF.ttf);
+     font-variation-settings:var(--weight);
+}
+@font-face {
+    font-family:Inktrap ;
+    src: url(../media/fonts/KLAR12_StencilVF.ttf);
+     font-variation-settings:var(--weight);
+}
+@font-face {
+    font-family:Overlap;
+    src: url(../typedesign/fonts/ShapeShifter_2.Termin_1.Übung_2VF.ttf);
+     font-variation-settings:var(--weight);
+}
